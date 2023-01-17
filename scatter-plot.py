@@ -9,7 +9,7 @@ ys = [round(x + random.uniform(0, 4), 2) for x in xs]
 # # plot max temp v/s month with a red color and 'x' marks
 plt.scatter(xs, ys, marker='x', color='r')
 
-# # define plot x axis and y axis labels
+# define plot x axis and y axis labels
 plt.xlabel("X")
 plt.ylabel("Y")
 
